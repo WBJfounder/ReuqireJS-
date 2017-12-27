@@ -51,7 +51,9 @@ require第一个参数可以不传哦
       IE不支持这个属性，只支持defer，所以把defer也写上。    
         <script src="js/require.js" defer async="true" ></script>
 </pre>
+
 ###### 然后创建main.js这个入口模块了 
+
 ###### 其次在main.js这个主模块中写全局配置文件
 <pre>
     require.config({
@@ -66,6 +68,8 @@ require第一个参数可以不传哦
          $('body').css('background-color','red')
          console.log(a.ss(1,2))
     })
-</pre>    
+</pre>  
+
 ### 基本的一些requirejs知识先到这然后上一些我的代码，知道这些基本简单的就够用了，一些扩展的东西后面会提到
+
 版权@WBJ_
